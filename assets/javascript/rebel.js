@@ -232,7 +232,7 @@ $(document).ready(function() {
 
                     } else {
                         alert("you lose!");
-                        window.location.href = "starwars.html";
+                        window.location.href = "index.html";
 
                     };
                     //if enemy is alive
@@ -277,7 +277,7 @@ $(document).ready(function() {
                                 }
                             } else if (graveyard.length === 3) {
                                 alert("you win!");
-                                window.location.href = "starwars.html";
+                                window.location.href = "index.html";
                             } else {};
 
                         } else if (enemy[0] === bobaFett) {
@@ -301,7 +301,7 @@ $(document).ready(function() {
                                 }
                             } else if (graveyard.length === 3) {
                                 alert("you win!");
-                                window.location.href = "starwars.html";
+                                window.location.href = "index.html";
                             } else {};
 
                         } else if (enemy[0] === jarjar) {
@@ -324,7 +324,7 @@ $(document).ready(function() {
                                 }
                             } else if (graveyard.length === 3) {
                                 alert("you win!");
-                                window.location.href = "starwars.html";
+                                window.location.href = "index.html";
                             } else {
                             	console.log("invalid");
                             };
@@ -332,7 +332,7 @@ $(document).ready(function() {
 
                         } else {
                             alert("you win!");
-                            window.location.href = "starwars.html";
+                            window.location.href = "index.html";
                         };
 
 

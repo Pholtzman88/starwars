@@ -234,7 +234,7 @@ $(document).ready(function() {
                 };
             } else {
                 alert("you lose!");
-                window.location.href = "starwars.html";
+                window.location.href = "index.html";
 
             };
             if (enemy[0].health > 0) {
@@ -277,7 +277,7 @@ $(document).ready(function() {
                         }
                     } else if (graveyard.length === 3) {
                         alert("you win!");
-                        window.location.href = "starwars.html";
+                        window.location.href = "index.html";
                     } else {};
 
                 } else if (enemy[0] === hanSolo) {
@@ -301,7 +301,7 @@ $(document).ready(function() {
                         }
                     } else if (graveyard.length === 3) {
                         alert("you win!");
-                        window.location.href = "starwars.html";
+                        window.location.href = "index.html";
                     } else {};
 
                 } else if (enemy[0] === obiWan) {
@@ -324,12 +324,12 @@ $(document).ready(function() {
                         }
                     } else if (graveyard.length === 3) {
                         alert("you win!");
-                        window.location.href = "starwars.html";
+                        window.location.href = "index.html";
                     } else {};
 
                 } else {
                     alert("you win!");
-                    window.location.href = "starwars.html";
+                    window.location.href = "index.html";
                 }
 
 
