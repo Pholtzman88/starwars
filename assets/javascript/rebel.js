@@ -14,7 +14,7 @@ $(document).ready(function() {
                     luck: 10,
                     class: "character",
                     id: "#luke_skywalker",
-                    icon: "<div class='character' id='luke_skywalker'><img class='container' src='assets/images/luke.jpg'/></div>"
+                    icon: "<div class='character' id='luke_skywalker'><img class='container' src='../images/luke.jpg'/></div>"
                 },
                 {
                     health: 100,
@@ -22,7 +22,7 @@ $(document).ready(function() {
                     luck: 20,
                     class: "character",
                     id: "#obi_wan",
-                    icon: "<div class='character' id='obi_wan'><img class='container' src='assets/images/kenobi.jpg'/></div>"
+                    icon: "<div class='character' id='obi_wan'><img class='container' src='../images/kenobi.jpg'/></div>"
                 },
                 {
                     health: 100,
@@ -30,7 +30,7 @@ $(document).ready(function() {
                     luck: 30,
                     class: "character",
                     id: "#han_solo",
-                    icon: "<div class='character' id='han_solo'><img class='container' src='assets/images/solo.jpg'/></div>"
+                    icon: "<div class='character' id='han_solo'><img class='container' src='../images/solo.jpg'/></div>"
                 }
             ];
             //empire character objects
@@ -40,7 +40,7 @@ $(document).ready(function() {
                     luck: 20,
                     class: "enemyCharacter",
                     id: "#vader",
-                    icon: "<div class='enemyCharacter' id='vader'><img class='container' src='assets/images/vader.jpg'/></div>"
+                    icon: "<div class='enemyCharacter' id='vader'><img class='container' src='../images/vader.jpg'/></div>"
                 },
                 {
                     health: 100,
@@ -48,7 +48,7 @@ $(document).ready(function() {
                     luck: 5,
                     class: "enemyCharacter",
                     id: "#bobaFett",
-                    icon: "<div class='enemyCharacter' id='bobaFett'><img class='container' src='assets/images/bobaFett.jpg'/></div>"
+                    icon: "<div class='enemyCharacter' id='bobaFett'><img class='container' src='../images/bobaFett.jpg'/></div>"
                 },
                 {
                     health: 100,
@@ -56,7 +56,7 @@ $(document).ready(function() {
                     luck: 60,
                     class: "enemyCharacter",
                     id: "#jarjar",
-                    icon: "<div class='enemyCharacter' id='jarjar'><img class='container' src='assets/images/jarjar.jpg'/></div>"
+                    icon: "<div class='enemyCharacter' id='jarjar'><img class='container' src='../images/jarjar.jpg'/></div>"
                 }
             ];
             //rebel army
