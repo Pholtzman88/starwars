@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>starwars</title>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/starwars.css"/>
+</head>
+<body>
+<script>
+$(document).ready(function(){
+
+$("#card").flip({
+  trigger: 'click'
+});
+});
+</script>
+<div id="card"> 
+  <div class="front"> 
+    <div id="intro">
+      <h1>Episode 9: A Star Wars Game</h1>
+      <p>
+        "It is a period of civil war between the Rebel Alliance and the evil Galactic Empire. Will you join the rebels in their fight to save the galaxy from tyranny? Or, will you join the Empire and spread darkness accross the galaxy, disturbing the balance of the force? Click anywhere to choose your Destiny!
+      </p>
+    </div>
+  </div> 
+  <div class="back">
+    <div id="heading">
+    <h1>Choose Your Alliance!</h1>
+    </div>
+    <a href="rebel.html">
+      <div class="alliance" id="rebel">
+        <img class="container" id="join_rebels" src="assets/images/rebel.png"/>
+      </div>
+    </a>
+    <a href="empire.html">
+      <div class="alliance" id="empire">
+        <img class="container" id="join_empire" src="assets/images/empire.jpg"/>
+      </div>
+    </a>
+  </div> 
+</div>
+
+</body>
+</html>
