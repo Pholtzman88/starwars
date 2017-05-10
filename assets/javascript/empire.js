@@ -40,7 +40,7 @@ $(document).ready(function() {
             luck: 20,
             class: "character",
             id: "#vader",
-            icon: "<div class='character' id='vader'><img class='container' src='assets/vader.jpg'/></div>"
+            icon: "<div class='character' id='vader'><img class='container' src='assets/images/vader.jpg'/></div>"
         },
         {
             health: 100,
@@ -48,7 +48,7 @@ $(document).ready(function() {
             luck: 5,
             class: "character",
             id: "#bobaFett",
-            icon: "<div class='character' id='bobaFett'><img class='container' src='assets/bobaFett.jpg'/></div>"
+            icon: "<div class='character' id='bobaFett'><img class='container' src='assets/images/bobaFett.jpg'/></div>"
         },
         {
             health: 100,
@@ -56,7 +56,7 @@ $(document).ready(function() {
             luck: 60,
             class: "character",
             id: "#jarjar",
-            icon: "<div class='character' id='jarjar'><img class='container' src='assets/jarjar.jpg'/></div>"
+            icon: "<div class='character' id='jarjar'><img class='container' src='assets/images/jarjar.jpg'/></div>"
         }
     ];
     //rebel army
