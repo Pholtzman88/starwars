@@ -200,11 +200,12 @@ $(document).ready(function() {
                                 attackCounter = attackCounter + 5
                                 user[0].attack = user[0].attack + attackCounter + 30;
 
-                                var c = document.getElementById("your_health");
+                                var c = document.getElementById("enemy_health");
 								var ctx = c.getContext("2d");
 
 								ctx.beginPath();
-								ctx.rect(0, 0, user[0].health * 3, 30);
+                                ctx.clearRect(0,0,300,30);
+								ctx.rect(0, 0, enemy[0].health * 3, 30);
 								ctx.fillStyle = "green";
 								ctx.fill();
                             // else deal normal damage
@@ -212,11 +213,12 @@ $(document).ready(function() {
                                 attackCounter = attackCounter + 5;
                                 user[0].attack = user[0].attack + attackCounter;
 
-                                var c = document.getElementById("your_health");
+                                var c = document.getElementById("enemy_health");
 								var ctx = c.getContext("2d");
 
 								ctx.beginPath();
-								ctx.rect(0, 0, user[0].health * 3, 30);
+                                ctx.clearRect(0,0,300,30);
+								ctx.rect(0, 0, enemy[0].health * 3, 30);
 								ctx.fillStyle = "green";
 								ctx.fill();
                             };
@@ -241,11 +243,12 @@ $(document).ready(function() {
                         if (user[0].luck < random) {
                             user[0].health = user[0].health - enemy[0].attack;
 
-                                var c = document.getElementById("enemy_health");
+                                var c = document.getElementById("your_health");
 								var ctx = c.getContext("2d");
 
 								ctx.beginPath();
-								ctx.rect(0, 0, enemy[0].health * 3, 30);
+                                ctx.clearRect(0,0,300,30);
+                                ctx.rect(0, 0, user[0].health * 3, 30);                                
 								ctx.fillStyle = "green";
 								ctx.fill();
                         } else {
@@ -335,7 +338,7 @@ $(document).ready(function() {
                             window.location.href = "index.html";
                         };
 
-
+   
                     };
 
 
